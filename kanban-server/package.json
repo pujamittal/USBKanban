@@ -4,7 +4,8 @@
   "description": "Server side for Kanban challenge app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/pujamittal/USBKanban/issues"
   },
-  "homepage": "https://github.com/pujamittal/USBKanban#readme"
+  "homepage": "https://github.com/pujamittal/USBKanban#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.6.3",
+    "morgan": "^1.7.0",
+    "nodemon": "^1.11.0"
+  }
 }
