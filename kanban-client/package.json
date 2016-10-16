@@ -1,0 +1,19 @@
+{
+  "name": "kanban-client",
+  "version": "1.0.0",
+  "description": "Frontend for kanban app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cole Johnson",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^13.1.0",
+    "gulp": "^3.9.1",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "angular": "^1.5.8"
+  }
+}
