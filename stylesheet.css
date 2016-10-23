@@ -1,0 +1,93 @@
+.result-display {
+  margin-left: 15px;
+  font-size: 125%;
+}
+.error {
+  color: #FF0000;
+}
+.hidden {
+  display: none;
+}
+body {
+  background-image:url('http://www.egg-tooth.com/wp-content/uploads/2014/01/clean-white-polygon-backgrounds-1.jpg');
+  font-family: 'Roboto Slab', serif;
+}
+h1{
+  font-size:40px;
+  text-align:center;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:40px;
+  margin-bottom:5px;
+  font-family: 'Lato', sans-serif;
+  color: rgb(52,52,52);
+}
+h2{
+  font-size:25px;
+  font-family: 'Lato', sans-serif;
+}
+
+h3{
+  font-size:20px;
+  text-align:center;
+  font-family: 'Roboto Slab', serif;
+  margin-bottom:10px;
+}
+
+.col{
+  width:280px;
+  height:60vh;
+  background-color:#F57C2C;
+  margin-left:40px;
+  margin-right:40px;
+  opacity: 0.75;
+  filter: alpha(opacity=75);
+  color:#FFFFFF;
+  z-index:4;
+  overflow:scroll;
+  border-radius: 7px;
+}
+
+#container{
+  width:90vw;
+  height: 60vh;
+  padding-left, padding-right:20px;
+  padding-top:0px;
+  text-align:center;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.links {
+  font-size:20px;
+  text-align:center;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+button {
+  font-family: 'Lato', sans-serif;
+  padding: 5px 10px;
+}
+
+#start {
+  margin-left: 20px;
+}
+
+#cancel {
+  margin-right: 20px;
+}
+
+#check {
+  margin-left: 20px;
+}
