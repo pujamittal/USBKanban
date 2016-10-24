@@ -5,6 +5,8 @@
         <!-- CSS -->
         <link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet">
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Lato|Roboto+Slab" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="css/html5.css" />
         <link rel="stylesheet" href="css/main.css" />
 
@@ -15,5 +17,40 @@
     </head>
     <body>
         <div ng-view></div>
+        <h1>THE KANBAN CHALLENGE: TEAM #num</h1>
+
+          <div id="container">
+            <table>
+              <tr>
+                <td>
+                  <h3>To Do</h3>
+                  <div class="col">
+                  	<ul>
+                  		<li>Task 1	<button type="button" id="start">START</button></li>
+                  		<li>Task 2	<button type="button" id="start">START</button></li>
+                  	</ul>
+                  </div>
+                </td>
+                <td >
+                  <h3>Doing</h3>
+                  <div class="col">
+                  	<ul>
+                  		<li><button type="button" id="cancel">CANCEL</button>	Task 3	<button type="button" id="check">CHECK</button></li>
+                  		<li><button type="button" id="cancel">CANCEL</button>	Task 4	<button type="button" id="check">CHECK</button></li>
+                  	</ul>
+                  </div>
+                </td>
+                <td>
+                  <h3>Done</h3>
+                  <div class="col">
+                  	<ul>
+                  		<li>Task 5</li>
+                  		<li>Task 6</li>
+                  	</ul>
+                  </div>
+                </td>
+              </tr>
+            </table>
+            <p class="links"><i class="fa fa-home"></i> Home   |   <i class="fa fa-question-circle"></i> Help</p> <!--TODO: link to homepage and support page-->
     </body>
 </html>
